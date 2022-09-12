@@ -13,29 +13,47 @@ nav {
 .home {
   color: #fff;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.93), black);
+  background-position: center center;
   height: 75vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center; }
+  .home p {
+    font-size: 18px;
+    padding: 10px;
+    line-height: 1.5; }
   .home .profile-picture {
     overflow: hidden; }
     .home .profile-picture img {
       border-radius: 50%;
       width: 150px;
       height: 150px; }
+  .home .ga-link {
+    color: red; }
   .home__text-content {
     width: 50%;
     text-align: center;
     padding-top: 10px; }
+  .home .socials .social-icons-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    padding-top: 10px;
+    gap: 25px; }
+    .home .socials .social-icons-list a {
+      color: #fff; }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
-a {
-  text-decoration: none; }
+a, ul, li {
+  text-decoration: none;
+  list-style: none; }
 
 header {
   width: 100%; }
