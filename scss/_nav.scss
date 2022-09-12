@@ -1,0 +1,18 @@
+nav{
+
+  background: black;
+  overflow: hidden;
+  padding-left: 50px;
+  padding-top: 50px;
+  
+  .main-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+
+    &__nav-item{
+      color: #fff;
+    }
+  }
+    
+}

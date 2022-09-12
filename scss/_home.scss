@@ -1,0 +1,29 @@
+.home{
+  color: #fff;
+  background: linear-gradient(
+    to top,
+    rgba(#000, .93),
+    rgba(#000, 1)
+  );
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .profile-picture{
+    overflow: hidden;
+    img{
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+    }
+  }
+
+  &__text-content{
+    width: 50%;
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+}
