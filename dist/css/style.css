@@ -1,17 +1,27 @@
 nav {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: black;
   overflow: hidden;
-  padding-left: 50px;
-  padding-top: 50px; }
+  padding-top: 50px;
+  font-size: 20px; }
   nav .main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
     display: flex;
-    flex-direction: row;
-    gap: 5%; }
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    height: 100px;
+    padding: 0 30px; }
     nav .main-nav__nav-item {
       color: #fff; }
 
 .home {
   color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.93), black);
   background-position: center center;
   height: 75vh;
@@ -42,9 +52,12 @@ nav {
     justify-content: center;
     font-size: 40px;
     padding-top: 10px;
-    gap: 25px; }
+    gap: 30px;
+    transition: all .2s ease-in-out; }
     .home .socials .social-icons-list a {
       color: #fff; }
+  .home .socials li:hover {
+    transform: scale(1.3); }
 
 * {
   margin: 0;

@@ -1,14 +1,24 @@
 nav{
-
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: black;
   overflow: hidden;
-  padding-left: 50px;
+  
   padding-top: 50px;
+  font-size: 20px;
   
   .main-nav{
-    display: flex;
-    flex-direction: row;
-    gap: 5%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  height: 100px;
+  padding: 0 30px;
+    
 
     &__nav-item{
       color: #fff;
