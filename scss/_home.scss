@@ -45,13 +45,17 @@
       font-size: 40px;
       padding-top: 10px;
       gap: 30px;
-      transition: all .2s ease-in-out;
+      
 
       a{
         color: #fff;
       }
-      
+      li{
+        transition: all .2s ease-in-out;
+
+      }
     }
+    
     li:hover{
       transform: scale(1.3)
     } 
