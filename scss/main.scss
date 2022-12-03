@@ -11,8 +11,19 @@
      text-decoration: none;
      list-style: none;
    }
-  
+  html{
+    font-family: 'Source Sans Pro', sans-serif;
+
+  }
    header {
     width: 100%;
   }  
- 
+ .btn{
+  outline: none;
+  border: none;
+  padding: 15px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-style: bold;
+  
+ }

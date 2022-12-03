@@ -4,7 +4,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://kit.fontawesome.com/eb1692f9d4.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/d48cffac75.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <title>Brian Lattners Portfolio</title>
 </head>
@@ -13,25 +16,32 @@
   <header>
     <nav>
       <div class="main-nav " id="main-nav">
-            <div class="logo">
-              <a class="main-nav__nav-item" href="#home" >Brian Lattner</a>
-              </div>
+         <div class="main-nav__logo-container" id="logo">
+           <h5 class="main-nav__heading">Brian Lattner</h5>
+          </div>
+              <a class="main-nav__nav-item" href="#home" >Home</a>
               <a class="main-nav__nav-item" href="#about" >About</a>
               <a class="main-nav__nav-item" href="#portfolio" >Portfolio</a>
-              <a class="main-nav__nav-item" href="#portfolio" >Blog</a>
               <a  class="main-nav__nav-item" href="#contact" >Contact</a>
-            
+              <i id="menu-btn" class="main-nav__menu fas fa-bars"></i>
         </div>
-          
+          <div id="dropdown" class="nav-dropdown">
+            <a class="nav-dropdown__nav-item" href="#home" >Home</a>
+            <a class="nav-dropdown__nav-item" href="#about" >About</a>
+            <a class="nav-dropdown__nav-item" href="#portfolio" >Portfolio</a>
+            <a class="nav-dropdown__nav-item" href="#contact" >Contact</a>
+        </div>
      </nav>
   </header>
+ 
   <section class="home" id="home">
-    <div class="profile-picture">
-    <img src="img/me.jpeg" alt="Profile Picture">
-  </div>
+    <!-- <div class="profile-picture">
+    <img src="img/me.jpg" alt="Profile Picture">
+  </div> -->
   <div class="home__text-content">
     <h1>Hi, I'm Brian</h1>
     <p>I am a Full Stack Web Developer based in the Chicago area.</p>
+    <button class="btn resume-btn">Download resume <i class="fa-solid fa-download"></i></button>
     <div class="socials">
       <ul class="social-icons-list" id="social-icons-list">
         <li><a href="https://www.instagram.com/royallatcat/?hl=en"><i class="fab fa-instagram instagram" ></i></a></li>
@@ -42,6 +52,6 @@
     </div>
   </div>
   </section>
- 
+
 </body>
 </html>

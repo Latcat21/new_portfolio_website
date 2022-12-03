@@ -1,34 +1,30 @@
 .home{
   color: #fff;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(
-    to top,
-    rgba(#000, .93),
-    rgba(#000, 1)
-  );
-  background-position: center center;
-  height: 75vh;
+  font-family: 'Source Sans Pro', sans-serif;
+
+  background-image: linear-gradient(to top, rgba(0,0,0, .3), rgba(0,0,0, .99)), url('../img/bg.png ') ;
+  height: 80vh;
+  width: 100%;
+  background-position: bottom;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
 
+  h1{
+    font-size: 72px;
+  }
   p{
     font-size: 18px;
     padding: 10px;
     line-height: 1.5;
   }
-  .profile-picture{
-    overflow: hidden;
-    img{
-      border-radius: 50%;
-      width: 150px;
-      height: 150px;
-    }
-  }
-  .ga-link{
-    color: red;
-  }
+ 
 
   &__text-content{
     width: 50%;
@@ -36,19 +32,25 @@
     padding-top: 10px;
   }
   .socials{
-     
+     position: absolute;
+     left: 0%;
+     padding: 10px;
+    top: 35%;
+     background-color: white;
+
     .social-icons-list{
       display: flex;
       flex-direction: row;
       align-items: center;
-      justify-content: center;
+      // justify-content: center;
+      flex-direction: column;
       font-size: 40px;
       padding-top: 10px;
-      gap: 30px;
+      gap: 25px;
       
 
       a{
-        color: #fff;
+        color: black;
       }
       li{
         transition: all .2s ease-in-out;
@@ -61,6 +63,15 @@
     } 
     
   
+  }
+  .resume-btn{
+    background-color: yellow;
+    margin-top: 10px;
+    i{
+      font-size: 18px;
+      color: black
+      
+    }
   }
   
 }  
