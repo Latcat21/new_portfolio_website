@@ -1,0 +1,57 @@
+.about-section{
+  background-color: #f4f4f4;
+  padding: 30px 30px;
+  .about-container{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  &__heading{
+    padding-top: 45px;
+
+    h1{
+      font-size: 36px;
+      letter-spacing: 1.5px;
+      text-align: center;
+    }
+    .heading-after{
+      width: 50px;
+      border: 3px solid yellow;
+      margin: 5px auto;
+    }
+  }
+
+  &__info{
+    padding: 25px;
+   display: grid;
+ 
+   justify-content: center;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 25px;
+   margin: 25px;
+    
+   h3{
+    font-size: 24px;
+    text-align: center;
+    margin: 15px;
+  }
+
+  .left{
+    
+    p{
+      font-size: 18px;
+      line-height: 1.5;
+    }
+    .btn{
+      margin-top: 20px;
+    }
+  }
+  .right{
+    text-align: center;
+   img{
+    width: 75px;
+    height: 75px;
+   }
+  }
+}
+} 
